@@ -1,0 +1,106 @@
+.rooms__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.rooms-star{
+  background-image: url("../img/starwars.jpg");
+  width: 580px;
+  height: 349px;
+}
+
+.rooms-west {
+  background-image: url("../img/west.jpg");
+  width: 580px;
+  height: 349px;
+}
+
+.rooms-neon {
+  background-image: url("../img/neon.jpg");
+  width: 580px;
+  height: 349px;
+}
+
+.rooms-vibe {
+  background-image: url("../img/80.jpg");
+  width: 580px;
+  height: 349px;
+}
+
+.room {
+  padding-top: 275px;
+}
+
+.rooms__name-text {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+}
+
+@media (max-width: 1100px) {
+  .rooms__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .rooms-star{
+    background-image: url("../img/starwars1024.jpg");
+    width: 432px;
+    height: 267px;
+  }
+  .rooms-west {
+    background-image: url("../img/west1024.jpg");
+    width: 432px;
+    height: 267px;
+  }
+  .rooms-neon {
+    background-image: url("../img/neon1024.jpg");
+    width: 432px;
+    height: 267px;
+  }
+  .rooms-vibe {
+    background-image: url("../img/80_1024.jpg");
+    width: 432px;
+    height: 267px;
+  }
+}
+
+@media (max-width: 500px) {
+  .rooms__title {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 840px) {
+  .rooms__list {
+    justify-content: center;
+  }
+  .rooms__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .rooms-star{
+    background-image: url("../img/starwars768.jpg");
+    width: 335px;
+    height: 200px;
+  }
+  .rooms-west {
+    background-image: url("../img/west768.jpg");
+    width: 335px;
+    height: 200px;
+  }
+  .rooms-neon {
+    background-image: url("../img/neon768.jpg");
+    width: 335px;
+    height: 200px;
+  }
+  .rooms-vibe {
+    background-image: url("../img/80_768.jpg");
+    width: 335px;
+    height: 200px;
+  }
+}
+
+

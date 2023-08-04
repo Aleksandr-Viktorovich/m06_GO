@@ -1,0 +1,125 @@
+.review__avatar {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+
+.review__avatar:after {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+  border-radius: 140px;
+  z-index: 1;
+  top: 0;
+}
+
+.review__list {
+  padding: 0 100px;
+  height: 330px;
+  margin-bottom: 50px;
+}
+
+.review__list-nikita {
+  margin-bottom: 0;
+}
+
+.review__name {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.review__text {
+  padding-top: 52px;
+  white-space: pre-wrap;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 180px;
+}
+
+.review__img {
+  padding-bottom: 11px;
+}
+
+@media (max-width: 1100px) {
+  .title__review {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .review__text {
+    font-size: 18px;
+    line-height: 26px;
+    white-space: normal;
+    padding-top: 97px;
+  }
+  .review__name {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 840px) {
+  .title__review {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .review__text {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 65px;
+  }
+  .review__name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 570px) {
+  .title__review {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .review__text {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 65px;
+  }
+  .review__avatar:after {
+    width: 280px;
+    height: 280px;
+  }
+  .review__name {
+    margin-bottom: 16px;
+  }
+  .review__list {
+    margin-bottom: 80px;
+    padding: 0px 12px;
+  }
+}
+
+@media (max-width: 340px) {
+  .title__review {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .review__text {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 65px;
+  }
+  .review__avatar:after {
+    width: 242px;
+    height: 242px;
+  }
+  .review__name {
+    margin-bottom: 16px;
+  }
+  .review__list {
+    margin-bottom: 80px;
+    padding: 0 20px;
+  }
+}

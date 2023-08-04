@@ -1,0 +1,182 @@
+.friends__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 880px;
+  margin: 0 auto;
+  margin-bottom: 41px;
+}
+
+.friends__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+  justify-content: center;
+}
+
+.friends__item {
+  transition-duration: .4s;
+  transition-property: transform;
+}
+
+.friends__item:hover {
+  transform: scale(1.1);
+}
+
+.friends__vr {
+  background-image: url("../img/vrgl.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+
+
+}
+
+.friends__audio {
+  background-image: url("../img/audio.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+  transform: translate(0, 40px)
+}
+
+/*.friends__audio:hover {*/
+/*  transform: translate(0, 80px);*/
+/*}*/
+
+.friends__karaoke {
+  background-image: url("../img/karaoke.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+.friends__game {
+  background-image: url("../img/game.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+.friends__netflix {
+  background-image: url("../img/netflix.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+  transform: translate(0, 40px)
+}
+
+/*.friends__netflix:hover {*/
+/*  transform: translate(0, 80px);*/
+/*}*/
+
+.friends__playstation {
+  background-image: url("../img/playstation.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+@media (max-width: 1100px) {
+  /*.container {*/
+  /*  padding: 0 10px;*/
+  /*}*/
+  .friends__title {
+    font-size: 30px;
+    line-height: 40px;
+    width: 650px;
+  }
+  .friends__list {
+    gap: 30px 10px;
+  }
+  .friends__vr{
+    background-image: url("../img/vr1024.jpg");
+    width: 287px;
+    height: 172px;
+  }
+  .friends__audio {
+    background-image: url("../img/audio1024.jpg");
+    width: 287px;
+    height: 172px;
+  }
+  .friends__karaoke {
+    background-image: url("../img/karaoke1024.jpg");
+    width: 287px;
+    height: 172px;
+  }
+  .friends__game {
+    background-image: url("../img/game1024.jpg");
+    width: 287px;
+    height: 172px;
+  }
+  .friends__netflix {
+    background-image: url("../img/netflix1024.jpg");
+    width: 287px;
+    height: 172px;
+  }
+  .friends__playstation {
+    background-image: url("../img/playstation1024.jpg");
+    width: 287px;
+    height: 172px;
+  }
+}
+
+@media (max-width: 840px) {
+  .friends__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .friends__list {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  /*.container {*/
+  /*  padding: 0 10px;*/
+  /*}*/
+  .friends__title {
+    font-size: 14px;
+    line-height: 18px;
+    width: 280px;
+  }
+  .friends__list {
+    gap: 10px;
+  }
+  .friends__vr{
+    background-image: url("../img/vr320.jpg");
+    width: 135px;
+    height: 75px;
+  }
+  .friends__audio {
+    background-image: url("../img/audio320.jpg");
+    width: 135px;
+    height: 75px;
+  }
+  .friends__karaoke {
+    background-image: url("../img/karaoke320.jpg");
+    width: 135px;
+    height: 75px;
+  }
+  .friends__game {
+    background-image: url("../img/game320.jpg");
+    width: 135px;
+    height: 75px;
+  }
+  .friends__netflix {
+    background-image: url("../img/netflix320.jpg");
+    width: 135px;
+    height: 75px;
+  }
+  .friends__playstation {
+    background-image: url("../img/playstation320.jpg");
+    width: 135px;
+    height: 75px;
+  }
+}

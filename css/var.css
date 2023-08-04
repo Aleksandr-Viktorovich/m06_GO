@@ -1,0 +1,13 @@
+:root {
+  --goColor: #6C0287;
+  --go-color: #640AA3;
+  --go-Color: #CD06FF;
+}
+
+.hero {
+  --heroColor: #840AA3;
+}
+
+.faq {
+  --faqColor: #440F51;
+}
