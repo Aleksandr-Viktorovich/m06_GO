@@ -1,0 +1,46 @@
+.burg__wrapper {
+  position: fixed;
+  z-index: 3;
+  top: 100px;
+  bottom: 0;
+  left: -740px;
+  max-width: 688px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.burg__wrapper.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.burg__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7 );
+  width: 688px;
+}
+
+.burg__list-item {
+  margin: 20px;
+  width: 100%;
+}
+
+.burg__btn {
+border: none;
+background: transparent;
+}
+
+.burg__list li:hover{
+  background: #6C0287;
+}
+
+.burg__list li:active{
+  background: #CD06FF;
+}
+
+
+
